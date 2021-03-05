@@ -1,0 +1,21 @@
+.pdf-container {
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+.controls {
+  margin: 20px;
+}
+
+@media print {
+  .pdf-container {
+    display: none;
+  }
+}
+
+.button{
+  background-color: transparent;
+  border: none;
+  border-bottom: 0px;
+}
