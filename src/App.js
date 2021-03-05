@@ -5,7 +5,7 @@ import "./App.css";
 
 const App = () => (
   <div className="content">
-    <h1>Example View PDF</h1>
+    <h1>Exemplo PDF Viewer</h1>
     <PdfViewer pdf={PDF} />
   </div>
 );
