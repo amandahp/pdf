@@ -36,7 +36,7 @@ const PdfViewer = ({ pdf }) => {
       </div>
 
       <Document
-        file={pdf}
+        file={"https://cors-anywhere.herokuapp.com/" + "http://biblioteca.cofen.gov.br/wp-content/uploads/2016/10/Nomes-de-medicamentos-com-grafia-ou-som-semelhantes-como-evitar-os-erros.pdf"}
         onLoadSuccess={onDocumentLoadSuccess}
         onContextMenu={(e) => e.preventDefault()}
         className="pdf-container"
